@@ -1,6 +1,14 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin")
+const path = require('path')
+const SRC_DIR = path.join(__dirname, '/src/')
+const DIST_DIR = path.join(__dirname, '/dist/')
 
 module.exports = {
+    entry: `${SRC_DIR}/index.js`,
+    output: {
+        path: DIST_DIR,
+        filename: 'bundle.js',
+    },
     module: {
         rules: [
             {
@@ -21,9 +29,6 @@ module.exports = {
         ]
     },
     plugins: [
-        new HtmlWebpackPlugin({
-            template: "./src/index.html",
-            filename: "./index.html"
-        })
+        new HtmlWebpackPlugin()
     ]
 }
