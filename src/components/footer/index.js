@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import '../componentStyles.css'
 
 class Footer extends Component {
     render() {
         return (
-            <footer>
+            <footer className="footer">
                 <div>
                     Footer component
                 </div>
