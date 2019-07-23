@@ -1,16 +1,32 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import '../componentStyles.css'
+import './styles.css'
+import WebsiteLogo from '../websiteLogo'
 
 class NavigationBar extends Component {
     render() {
         return (
             <header className="header">
-                <ul id="headerButtons">
+                <div className="headerLogoContainer">
+                    <WebsiteLogo></WebsiteLogo>
+                </div>
+                <div id="headerButtons">
                     <li className="navButton">
-                        <Link to="">Home</Link>
+                        <Link to="/hydrogen">
+                            <button className="navMenuButtons" >
+                                HYDROGEN
+                                <arrow className="right"></arrow>
+                            </button>
+                        </Link>
+                        <Link to="/hydrogen">
+                            <button className="navMenuButtons" >
+                                HYDROGEN
+                                <arrow className="right"></arrow>
+                            </button>
+                        </Link>
                     </li>
-                </ul>
+                </div>
+                <div className="clearfix"></div>
             </header>
         )
     }

@@ -1,0 +1,14 @@
+.defaultLogo {
+    font-family: Impact, Charcoal, sans-serif !important;
+    font-size: 200%;
+    font-weight: 200;
+    color: white;
+    display: inline;
+    text-align: center;
+    line-height: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    background-image: radial-gradient(circle at 90% 95%, #00A3E1,#0033A0 80%);
+    /* text-shadow: 2px 2px 3px #32D5DB; */
+}

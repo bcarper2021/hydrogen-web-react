@@ -14,9 +14,14 @@ module.exports = {
             {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
-                use: {
-                    loader: "babel-loader"
-                }
+                use: [
+                    {
+                        loader: "babel-loader"
+                    },
+                    {
+                        loader: "react-hot-loader/webpack"
+                    }
+                ]
             },
             {
                 test: /\.html$/,
@@ -35,6 +40,13 @@ module.exports = {
                     {
                         loader: 'css-loader'
                     }
+                ]
+            },
+            {
+                test: /\.(jpe?g|png|gif|svg)$/i,
+                use: [
+                  'url-loader?limit=10000',
+                  'img-loader'
                 ]
             },
         ]

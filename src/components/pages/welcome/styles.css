@@ -1,0 +1,29 @@
+#WelcomeImage {
+    width: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(4px);
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+  
+#WelcomeBackgroundImage { 
+    /* The image used */
+    /* background-image: url("../../../assets/images/NashvilleNight.png"); */
+    background-image: radial-gradient(circle at 10% 5%, #00A3E1,#0033A0 80%);
+
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-origin: content-box;
+
+    z-index: 0;
+    padding-top: 80px;
+}
