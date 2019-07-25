@@ -12,18 +12,18 @@ class NavigationBar extends Component {
                 </div>
                 <div id="headerButtons">
                     <li className="navButton">
-                        <Link to="/hydrogen">
+                        {/* <Link to="/hydrogen">
                             <button className="navMenuButtons" >
                                 HYDROGEN
                                 <arrow className="right"></arrow>
                             </button>
                         </Link>
-                        <Link to="/hydrogen">
+                        <Link to="/helium">
                             <button className="navMenuButtons" >
-                                HYDROGEN
+                                HELIUM
                                 <arrow className="right"></arrow>
                             </button>
-                        </Link>
+                        </Link> */}
                     </li>
                 </div>
                 <div className="clearfix"></div>

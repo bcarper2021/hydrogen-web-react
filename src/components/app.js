@@ -4,6 +4,7 @@ import { browserHistory } from 'react-router'
 import NavigationBar from './header'
 import Footer from './footer'
 import WelcomePage from './pages/welcome'
+import TravelsPage from './pages/travels'
 import './styles.css'
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
                 <div className="RootContainer">
                     <NavigationBar />
                     <Route name="home" exact path="/hydrogen" component={WelcomePage} />
+                    <Route name="travels" exact path="/helium" component={TravelsPage} />
                     <Footer />
                     <Redirect exact from="/" to="/hydrogen" />
                 </div>

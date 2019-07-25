@@ -15,7 +15,7 @@ body, html {
     background-image: radial-gradient(circle at 10% 5%, #00A3E1,#0033A0 80%);
 
     /* Full height */
-    height: 100%;
+    height: calc(100% - 80px);
   
     /* Center and scale the image nicely */
     background-position: center;
@@ -26,4 +26,21 @@ body, html {
 
     z-index: 0;
     padding-top: 80px;
+}
+
+#CommemorativeDiv {
+    width: 40%;
+    min-width: 370px;
+    box-sizing: border-box;
+
+    font-size: 200%;
+    font-family: Impact, Charcoal, sans-serif !important;
+    letter-spacing: 0.03em;
+    color: white;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 70%;
+    padding: 10px;
 }

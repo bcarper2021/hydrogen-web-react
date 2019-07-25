@@ -8,7 +8,7 @@
     line-height: 80px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-left: 10px;
-    background-image: radial-gradient(circle at 90% 95%, #00A3E1,#0033A0 80%);
+    margin-left: 20px;
+    background-image: radial-gradient(circle at 90% 95%, #F6DDA9,#FFB821 99.9%);
     /* text-shadow: 2px 2px 3px #32D5DB; */
 }

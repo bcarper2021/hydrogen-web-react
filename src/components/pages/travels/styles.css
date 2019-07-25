@@ -1,0 +1,17 @@
+#TravelsBackground { 
+    /* The image used */
+    background-image: radial-gradient(circle at 10% 5%, #D66B42,#E13E00 80%);
+
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-origin: content-box;
+
+    z-index: 0;
+    padding-top: 80px;
+}

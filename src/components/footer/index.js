@@ -4,8 +4,8 @@ import './styles.css'
 class Footer extends Component {
     render() {
         return (
-            <footer className="footer">
-                <div>
+            <footer>
+                <div className="footer">
                     Footer component
                 </div>
             </footer>
