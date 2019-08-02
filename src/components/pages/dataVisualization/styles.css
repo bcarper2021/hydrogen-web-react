@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#DataVisualizationLandingBackground { 
+    /* The image used */
+    background-image: radial-gradient(circle at 10% 5%, #F6DDA9,#FFB821 80%);
+
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-origin: content-box;
+
+    z-index: 0;
+}
+
+#DataVisualizationContentContainer { 
+    /* The image used */
+    background-color: white;
+
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-origin: content-box;
+
+    z-index: 0;
+}
+
+.Container {
+    height: 200%;
+    display: grid;
+}
+
+#BtnPageDown {
+    width: 135px;
+    height: 40px;
+
+    box-sizing: border-box;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+
+    font-family: Nunito Sans, sans-serif !important;
+    font-size: 100%;
+    font-weight: 550;
+    color: #4E4E4E;
+}
+
+#BtnPageDown:hover {
+    border-style: solid; 
+    border-color: #4E4E4E;
+    border-width: 2px;
+
+    cursor: pointer;
+}
+
+arrow {
+    border: solid #32D5DB;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+  }
+  
+  .right {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }

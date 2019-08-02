@@ -12,7 +12,7 @@ class NavigationBar extends Component {
                 </div>
                 <div id="headerButtons">
                     <li className="navButton">
-                        {/* <Link to="/hydrogen">
+                        <Link to="/hydrogen">
                             <button className="navMenuButtons" >
                                 HYDROGEN
                                 <arrow className="right"></arrow>
@@ -23,7 +23,13 @@ class NavigationBar extends Component {
                                 HELIUM
                                 <arrow className="right"></arrow>
                             </button>
-                        </Link> */}
+                        </Link>
+                        <Link to="/silicon">
+                            <button className="navMenuButtons" >
+                                SILICON
+                                <arrow className="right"></arrow>
+                            </button>
+                        </Link>
                     </li>
                 </div>
                 <div className="clearfix"></div>
